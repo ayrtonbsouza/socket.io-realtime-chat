@@ -6,10 +6,9 @@ export const Container = styled.div`
   text-align: center;
   height: 100vh;
   align-items: center;
-  background-color: #1a1a1d;
 
   @media (min-width: 320px) and (max-width: 480px) {
-    height: 100%;
+    height: 100vh;
   }
 
   button {
@@ -32,9 +31,12 @@ export const Container = styled.div`
 
 export const InnerContainer = styled.div`
   width: 50%;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   @media (min-width: 320px) and (max-width: 480px) {
-    height: 90%;
+    height: 100vh;
   }
 `;
 
