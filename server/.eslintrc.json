@@ -24,6 +24,10 @@
   ],
   "rules": {
     "prettier/prettier": "error",
+    "no-param-reassign": "off",
+    "consistent-return": "off",
+    "no-explicit-any": "off",
+    "no-console": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
